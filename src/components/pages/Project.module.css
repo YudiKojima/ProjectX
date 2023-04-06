@@ -1,0 +1,51 @@
+.project_datails {
+    padding: 2em;
+}
+
+.project_datails h1,
+.project_datails h2,
+.project_datails p2 {
+    margin-bottom: 0.5em;
+}
+
+.project_datails h1 {
+    background-color: #222;
+    color: #a8cd9a;
+    padding: 0.4em;
+    border-radius: 5px;
+}
+
+.project_datails span {
+    font-weight: bold;
+}
+
+.details_container,
+.service_form_container {
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: #211f25;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 30px;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+}
+
+.btn:hover {
+    font-size: 17px;
+    color: #a8cd9a;
+}
+
+.project_info {
+    width: 100%;
+}

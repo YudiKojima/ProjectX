@@ -1,0 +1,77 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #211f25;
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    transition: 0.4s all ease;
+}
+
+.item {
+    margin-right: 1em;
+    transition: 0.4s all ease;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+
+.item a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+
+.item a:hover {
+    font-size: 20px;
+    transition: 0.4s all ease;
+    color: #a8cd9a;
+}
+
+.list li {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+.list li:hover {
+    color: #cdcdcd;
+    transition: 0.4s all ease;
+}
+
+.list li::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #a8cd9a;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.list li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    transition: 0.5s;
+}
+
+.img:hover {
+    width: 110px;
+    height: 110px;
+}

@@ -1,0 +1,14 @@
+.submit_control {
+    background-color: #211f25;
+    color: #fff;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 25% 10%;
+}
+
+.submit_control:hover {
+    font-size: 17px;
+    color: #a8cd9a;
+}
